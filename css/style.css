@@ -1,0 +1,136 @@
+.search-bar {
+    height: 44px;
+    position: relative;
+}
+
+.search-bar-container {
+    display: flex;
+    width: calc(100% - 150px);
+    border: 1px solid gray;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#id_category {
+    border: none;
+    width: 230px;
+    padding: 2px 5px;
+    background-color:#00000000;
+    border-right: 1px solid gray;
+}
+
+#id_category:focus-visible {
+    outline-style: none !important;
+}
+
+.sgs-search {
+    width: 100%;
+    padding: 2px 10px;
+    background-color:#00000000;
+}
+
+input:focus-visible {
+    outline-style: none !important;
+}
+
+.searchbtn-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+}
+
+.sgs-searchbtn {
+    margin-top: 0px;
+    width: 100px;
+    background-color:#00000000;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.sgs-searchbtn:focus-visible, .sgs-searchbtn:hover, .sgs-searchbtn:visited, .sgs-searchbtn:active, .sgs-searchbtn:focus {
+    outline-style: none !important;
+}
+
+.sgs-item {
+    padding: 5px 0px;
+}
+.sgs-item-title {
+    font-size: 20px;
+    margin: 0px;
+}
+.sgs-item-query {
+    min-height: 56px;
+    margin: 0 0 1em;
+    padding-left: 4em;
+    background-image: url(../images/icon-q.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 56px;
+    padding-top: 15px;
+}
+
+.sgs-item-query:hover {
+    cursor: pointer;
+}
+
+.sgs-item-answer {
+    padding: 20px 0 20px 4em;
+    display: none;
+}
+
+.sgs-item-answer p {
+    margin-bottom: 0px;
+}
+
+ul.sgs-results li {
+    list-style-type: none;
+    margin-left: 0px;
+}
+
+ul.sgs-results {
+    list-style-type: none;
+    margin-left: 0px;
+}
+
+
+
+.plan-list {
+    list-style-type: none;
+}
+
+.plan-list-item {
+    margin: 20px 0;
+}
+
+.plan-list-item-container {
+    display: flex;
+}
+
+.videos-thumbnail-img {
+    width: 250px;
+}
+
+.item-desc {
+    margin-left: 30px;
+}
+
+.detail-img-container, .right-half {
+    width: 50% !important;
+}
+
+.right-half {
+    margin-left: 30px;
+}
+
+.right-half form {
+    width: 100%;
+}
+
+.d-flex {
+    display:flex;
+}
+
+.search-content {
+    margin-top: 20px;
+}
